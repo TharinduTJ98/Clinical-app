@@ -1,0 +1,224 @@
+{
+  "clients" : [
+  {
+    "userId": 1,
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 29,
+    "gender": "Male",
+    "role": "Admin",
+    "isActive": true
+  },
+  {
+    "userId": 2,
+    "username": "janedoe",
+    "email": "janedoe@example.com",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "age": 27,
+    "gender": "Female",
+    "role": "User",
+    "isActive": true
+  },
+  {
+    "userId": 3,
+    "username": "bobjones",
+    "email": "bobjones@example.com",
+    "firstName": "Bob",
+    "lastName": "Jones",
+    "age": 35,
+    "gender": "Male",
+    "role": "Moderator",
+    "isActive": false
+  },
+  {
+    "userId": 4,
+    "username": "alicew",
+    "email": "alicew@example.com",
+    "firstName": "Alice",
+    "lastName": "Williams",
+    "age": 32,
+    "gender": "Female",
+    "role": "User",
+    "isActive": true
+  },
+  {
+    "userId": 5,
+    "username": "charliet",
+    "email": "charliet@example.com",
+    "firstName": "Charlie",
+    "lastName": "Taylor",
+    "age": 30,
+    "gender": "Male",
+    "role": "User",
+    "isActive": false
+  },
+  {
+    "userId": 6,
+    "username": "emilyh",
+    "email": "emilyh@example.com",
+    "firstName": "Emily",
+    "lastName": "Harris",
+    "age": 28,
+    "gender": "Female",
+    "role": "Admin",
+    "isActive": true
+  },
+  {
+    "userId": 7,
+    "username": "davidp",
+    "email": "davidp@example.com",
+    "firstName": "David",
+    "lastName": "Perez",
+    "age": 36,
+    "gender": "Male",
+    "role": "Moderator",
+    "isActive": true
+  },
+  {
+    "userId": 8,
+    "username": "sarahm",
+    "email": "sarahm@example.com",
+    "firstName": "Sarah",
+    "lastName": "Martinez",
+    "age": 31,
+    "gender": "Female",
+    "role": "User",
+    "isActive": false
+  },
+  {
+    "userId": 9,
+    "username": "michaels",
+    "email": "michaels@example.com",
+    "firstName": "Michael",
+    "lastName": "Smith",
+    "age": 40,
+    "gender": "Male",
+    "role": "Admin",
+    "isActive": true
+  },
+  {
+    "userId": 10,
+    "username": "lisab",
+    "email": "lisab@example.com",
+    "firstName": "Lisa",
+    "lastName": "Brown",
+    "age": 26,
+    "gender": "Female",
+    "role": "User",
+    "isActive": true
+  },
+  {
+    "userId": 11,
+    "username": "andrewc",
+    "email": "andrewc@example.com",
+    "firstName": "Andrew",
+    "lastName": "Clark",
+    "age": 33,
+    "gender": "Male",
+    "role": "User",
+    "isActive": true
+  },
+  {
+    "userId": 12,
+    "username": "katiej",
+    "email": "katiej@example.com",
+    "firstName": "Katie",
+    "lastName": "Johnson",
+    "age": 29,
+    "gender": "Female",
+    "role": "Admin",
+    "isActive": true
+  },
+  {
+    "userId": 13,
+    "username": "alexl",
+    "email": "alexl@example.com",
+    "firstName": "Alex",
+    "lastName": "Lopez",
+    "age": 34,
+    "gender": "Male",
+    "role": "Moderator",
+    "isActive": false
+  },
+  {
+    "userId": 14,
+    "username": "oliviaw",
+    "email": "oliviaw@example.com",
+    "firstName": "Olivia",
+    "lastName": "White",
+    "age": 25,
+    "gender": "Female",
+    "role": "User",
+    "isActive": true
+  },
+  {
+    "userId": 15,
+    "username": "chrisg",
+    "email": "chrisg@example.com",
+    "firstName": "Chris",
+    "lastName": "Green",
+    "age": 38,
+    "gender": "Male",
+    "role": "User",
+    "isActive": false
+  },
+  {
+    "userId": 16,
+    "username": "heatherb",
+    "email": "heatherb@example.com",
+    "firstName": "Heather",
+    "lastName": "Brown",
+    "age": 27,
+    "gender": "Female",
+    "role": "User",
+    "isActive": true
+  },
+  {
+    "userId": 17,
+    "username": "jasonk",
+    "email": "jasonk@example.com",
+    "firstName": "Jason",
+    "lastName": "King",
+    "age": 39,
+    "gender": "Male",
+    "role": "Admin",
+    "isActive": true
+  },
+  {
+    "userId": 18,
+    "username": "laurad",
+    "email": "laurad@example.com",
+    "firstName": "Laura",
+    "lastName": "Davis",
+    "age": 24,
+    "gender": "Female",
+    "role": "User",
+    "isActive": true
+  },
+  {
+    "userId": 19,
+    "username": "jamesw",
+    "email": "jamesw@example.com",
+    "firstName": "James",
+    "lastName": "Wilson",
+    "age": 41,
+    "gender": "Male",
+    "role": "Moderator",
+    "isActive": false
+  },
+  {
+    "userId": 20,
+    "username": "sophiar",
+    "email": "sophiar@example.com",
+    "firstName": "Sophia",
+    "lastName": "Robinson",
+    "age": 30,
+    "gender": "Female",
+    "role": "User",
+    "isActive": true
+  }
+]
+}
