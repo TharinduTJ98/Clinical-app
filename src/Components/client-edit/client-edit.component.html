@@ -1,0 +1,40 @@
+<app-client-banner></app-client-banner>
+
+<form [formGroup]="clientForm" (ngSubmit)="onFormSubmit()" class="client-form">
+  <div class="form-row">
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>User Name</mat-label>
+      <input matInput formControlName="username" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" required>
+    </mat-form-field>
+  </div>
+
+  <div class="form-row">
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>First Name</mat-label>
+      <input matInput formControlName="firstName" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Last Name</mat-label>
+      <input matInput formControlName="lastName" required>
+    </mat-form-field>
+  </div>
+
+  <div class="form-row">
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Age</mat-label>
+      <input type="number" matInput formControlName="age" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Role</mat-label>
+      <input matInput formControlName="role" required>
+    </mat-form-field>
+  </div>
+
+  <div class="form-actions">
+    <button mat-raised-button color="primary" type="submit">Save</button>
+  </div>
+</form>

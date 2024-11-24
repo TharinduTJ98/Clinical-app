@@ -13,11 +13,16 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatTableModule} from '@angular/material/table';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { ClientTableComponent } from 'src/Components/client-table/client-table.component';
-
+import { ClientEditComponent } from 'src/Components/client-edit/client-edit.component';
+import {MatCardModule} from '@angular/material/card';
+import { ClientBannerComponent } from 'src/Components/client-banner/client-banner.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 @NgModule({
   declarations: [
     AppComponent,
-    ClientTableComponent
+    ClientTableComponent,
+    ClientEditComponent,
+    ClientBannerComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +38,8 @@ import { ClientTableComponent } from 'src/Components/client-table/client-table.c
     MatToolbarModule,
     MatTableModule,
     MatCheckboxModule,
+    MatCardModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

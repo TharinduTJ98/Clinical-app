@@ -12,4 +12,8 @@ export class DataTransferService {
   getAllData():Observable<any>{
     return this.http.get('http://localhost:3000/clients');
   }
+
+  getClientData(userID: number):Observable<any>{
+    return this.http.get(`http://localhost:3000/clients?userId=${userID}`)
+  }
 }
